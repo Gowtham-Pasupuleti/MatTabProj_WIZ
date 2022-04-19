@@ -54,7 +54,8 @@ const hscodes=()=> {
      
      return (
        <div>
-        <MaterialTable columns={columns} data={tableData} title="HS-CODES" icons={tableIcons}/>
+        <MaterialTable columns={columns} data={tableData} title="HS-CODES" icons={tableIcons}
+        options={{pageSize:10}}/>
         </div>
      )
      }
